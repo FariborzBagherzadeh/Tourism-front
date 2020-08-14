@@ -1,0 +1,83 @@
+.postimg img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.432);
+}
+.postimg {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.postp {
+  margin-top: 5%;
+  text-align: center;
+}
+.postp div {
+  width: 100%;
+}
+.postp p {
+  font-family: Acme;
+  line-height: 1.6em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:1.3em;
+  text-align: left;
+}
+.postp img {
+  margin-top: 5%;
+}
+.comment {
+  margin-top: 5%;
+}
+.commentbase {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.432);
+  font-family: Acme;
+  line-height: 1.6em;
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+.eachcomment {
+  margin-left: 5%;
+}
+.eachcomment div {
+  padding-top: 5%;
+}
+.commentpost {
+  margin-top: 5%;
+}
+.commentpost form {
+  text-align: center;
+  font-family: Acme;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.432);
+}
+.commentpost input {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+.commentpost button {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Acme;
+  font-size: 1.2em;
+}
+.stars {
+  width: 100%;
+  text-align: center;
+}
+.stars div {
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
+  outline: none !important;
+}

@@ -1,0 +1,25 @@
+.navbar {
+  transition: all 0.3s ease-out;
+  background-color: #111111 !important;
+}
+.titleNav {
+  font-size: 2em;
+  text-shadow: black 1px 1px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white !important;
+}
+.NavItems {
+  transition: all 0.3s easeout;
+  margin-left: 25px;
+  color: white !important;
+  font-family: Noto Sans;
+  font-size: 1.2em;
+}
+
+.NavItems:hover {
+  border-bottom: #ff4655 solid 1px !important;
+}
+.navbar-toggler-icon {
+  transition: all 0.3s ease-out;
+  background-image: url("https://img.icons8.com/fluent/48/000000/menu--v1.png") !important;
+}

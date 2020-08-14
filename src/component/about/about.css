@@ -1,0 +1,35 @@
+.about1 {
+  margin-top: 15%;
+  font-family: Open Sans Condensed;
+  color: black;
+  text-align: left;
+}
+.about1 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.about2 {
+  margin-top: 10%;
+}
+.about2 h1 {
+  color: #0f1923;
+  font-family: Anton;
+  font-size: 500%;
+}
+.about2 p {
+  margin-top: 15%;
+  text-align: left;
+  color: black;
+  font-size: larger;
+  line-height: 2em;
+}
+.about2 img {
+  margin-top: 10%;
+}
+
+.about2 h3 {
+  text-align: left;
+  color: #0f1923;
+  font-family: Acme;
+}

@@ -1,0 +1,27 @@
+#footer {
+  background-color: #1b2c2b;
+  color: white;
+  margin-right: -5%;
+}
+.footer_link {
+  color: white !important;
+  text-decoration: none;
+  color: cadetblue;
+  transition: all 0.3s ease-out;
+}
+.footer_link:hover {
+  border-radius: 10px;
+  color: #9ebfc0;
+  background-color: #354b4a;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: all 0.2s;
+  transform: scale(1.1);
+  text-decoration: none;
+}
+.social {
+  transition: all 0.3s;
+}
+.social:hover {
+  transform: scale(1.2);
+}

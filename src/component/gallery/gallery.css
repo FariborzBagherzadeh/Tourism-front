@@ -1,0 +1,62 @@
+#card {
+  width: 90%;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Acme;
+  color: black !important;
+  transition: all 0.5s ease-out;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+#colcard {
+  margin-top: 4%;
+}
+#card img {
+  height: 57vh;
+  filter: brightness(80%);
+  transition: all 0.3s ease-out;
+}
+#card:hover img {
+  transform: translateY(-10%);
+  filter: brightness(30%);
+}
+#card button {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  font-family: Acme;
+  font-size: large;
+}
+#card:hover .card-title {
+  background-color: #0f192300;
+}
+.card-title {
+  background-color: #111111;
+  font-size: 2.5em;
+  color: white;
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  margin-top: 35%;
+  text-align: center;
+  font-family: Anton;
+}
+
+.card-text {
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+#card:hover .card-title,
+#card:hover .card-text,
+#card:hover button {
+  opacity: 1;
+  margin-top: 0;
+}
