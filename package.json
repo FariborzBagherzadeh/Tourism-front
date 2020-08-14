@@ -2,7 +2,6 @@
   "name": "tourism",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "@farbenmeer/react-spring-slider": "^1.2.0",
     "@testing-library/jest-dom": "^4.2.4",
